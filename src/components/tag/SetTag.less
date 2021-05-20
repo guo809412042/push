@@ -1,0 +1,34 @@
+.type_text{
+    font-weight: bold;
+    color: #000;
+}
+.clear{
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    height: 100px;
+    overflow-y: auto;
+}
+.check_box{
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.show_all_icon{
+    font-size: 18px;
+    cursor: pointer;
+}
+.show_all_icon_up {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+}
+.show_all_icon_down {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+}

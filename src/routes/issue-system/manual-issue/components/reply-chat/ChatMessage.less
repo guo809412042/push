@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  margin: 10px auto;
+  word-break: break-all;
+
+  .left,
+  .right{
+    width: 52px;
+    display: flex;
+    justify-content: center;
+
+    :global(.ant-avatar) {
+      background-color: #f56a00;
+    }
+  }
+  .center {
+    flex: 1;
+  }
+  .center.service {
+    text-align: right;
+  }
+  .subtitle {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+  }
+}
+
+.root.service {
+  flex-direction: row-reverse;
+}

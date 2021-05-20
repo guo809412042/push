@@ -1,0 +1,35 @@
+.root {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: .5em;
+  margin: auto;
+  border: 1px solid #ccc;
+  background-color: #eaeaea;
+
+  .header {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #aaa;
+  }
+
+  .select {
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .row {
+    margin: 10px 0;
+  }
+
+  :global {
+    .bf-container {
+      background-color: #fff;
+      margin-bottom: 10px;
+    }
+    .bf-content {
+      height: 294px;
+    }
+  }
+}
